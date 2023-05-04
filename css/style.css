@@ -276,9 +276,11 @@ li a{
 
 /* footer */ /* FOOTER FOOTER FOOTER */
 
+
+
         footer{
             background-color:#D6CE8F;
-            height: auto;
+            height: 100%;
         }
 
         .footerContenedor{
@@ -289,6 +291,7 @@ li a{
             "Visitanos Visitanos Visitanos"
             "redes redes redes"
             "nav nav nav";
+            height: 100%;
         }
 
         .footerVisitanos{
@@ -312,6 +315,7 @@ li a{
             color: #090611;
             grid-area: redes;
             justify-self: center ;
+            margin-bottom: 10px;
         }
 
         .navFooter{
@@ -319,6 +323,7 @@ li a{
             padding-bottom: 20px;
             margin-top: 50px;
             grid-column: 1 / 4;
+            height: 100%;
             }
 
         .sacarListaFooter{
@@ -326,6 +331,8 @@ li a{
             display: flex;
             gap: 30px;
             justify-content: center;
+            margin-top: -40px;
+            margin-bottom: 50px;
             
         }
 
