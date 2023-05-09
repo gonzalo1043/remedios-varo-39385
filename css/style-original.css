@@ -1,0 +1,2694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=IM+Fell+French+Canon+SC&family=IM+Fell+French+Canon:ital@0;1&family=Josefin+Sans&display=swap');
+/*
+font-family: 'Elsie', cursive;
+font-family: 'IM Fell French Canon', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Josefin Sans', sans-serif; */
+
+
+
+
+/* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */ /* Desktop first */
+
+/* TAMAÑOS DE PAGINA */
+
+body{
+    width: 100%;
+    background-color: #090611;
+}
+
+main{
+    background-color: #090611;
+}
+
+
+/* Header */
+
+
+
+
+
+
+header{
+    width: 100%;
+    background-color: #090611;
+    font-family:'IM Fell French Canon SC', serif;
+    font-weight:200;
+    margin-top: 20px;
+    margin-bottom: 114px;
+}
+.dropdown-menu{
+    background-color: #18151F;
+    border:#D6CE8F solid 1px ;
+    justify-content: center;
+}
+
+.dropdown-item{
+    color: #D6CE8F;
+    text-align: center;
+    
+}
+
+nav{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #D6CE8F;
+    font-size: 20px;
+}
+
+.sacarLista{
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+
+.divH{
+    color: #D6CE8F;;
+    text-align: center;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 200;
+    font-size: 64px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.borde{
+    border: 1px solid #D6CE8F;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+}
+
+/* Main */
+
+
+/* section1 */ /* INDEX SECTION 1 */
+
+    .section1Index{
+        margin-bottom: 500px;
+    }
+        /* div1 */
+
+        .textoDentroImagen{
+
+        background-image:url(../assets/img/remdios-varo-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        color: white;
+        text-align: center;
+        font-family: 'IM Fell French Canon SC', serif;
+        text-transform: uppercase;
+        font-weight: 200;
+        padding: 30px 10px 20px 10px;
+        margin-left: 116px;
+        margin-right: 116px;
+        line-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        }
+
+        .h1Div1{
+            font-size: 112px;
+            margin-bottom: 30px;
+        }
+        .h2Div1{
+            font-size: 70px;
+        }
+
+        /* div2 */
+
+
+
+        .h1Div2{
+        color: white;
+        font-size: 64px;
+        text-align: center;
+        font-family: 'IM Fell French Canon', serif;
+        font-style: italic;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+        margin-top: 350px;
+        margin-bottom: 68px;
+        padding-left: 50px;
+        padding-right: 50px;
+        }
+
+
+
+        .biografiaCentroTexto{
+            color: white;
+            font-size: 28px;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 200;
+            display: flex;
+            justify-content: center;
+            padding-left: 240px;
+            padding-right: 240px;
+            margin-bottom: 28px;
+        }
+
+        /* Div 3 ICONO BIOGRAFIA CENTRO INDEX */
+
+        .divBiografiaCentroIcono{
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'IM Fell French Canon SC', serif ;
+            font-weight: 300;
+            display: flex;
+            justify-content: center;
+        }
+
+        .biografiaCentroIcono{
+            border: 1px solid #D6CE8F ;
+            text-decoration: none;
+            list-style: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 30px;
+            color: #D6CE8F;
+
+        }
+
+
+    /* SECTION 2  INDEX PASAR A OBRAS SECTION 2 */
+
+
+        /* div1 */
+
+        .section2Index{
+            width: 100%;
+            display: grid;
+            grid-template: repeat(2,auto) / repeat(3,auto);
+            justify-items: center;
+            margin-bottom: 600px;
+        }
+
+        .imagen1Index{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        }
+
+        .imagen2Index{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        }
+
+        .boton1940-1950{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        }
+
+        .botonObras{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        align-self: center;
+        padding-top: 200px;
+        }
+
+        .textoEntreImagenes {
+            color: white;
+            text-align: center;
+            font-size: 65px;
+            font-family: 'IM Fell French Canon', serif;
+            text-decoration: none;
+            font-weight: 200;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            align-self: center;
+            padding-bottom: 100px;
+        }
+
+        .letraAmarilla{
+            border: 1px solid #D6CE8F ;
+            text-decoration: none;
+            list-style: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 30px;
+            color: #D6CE8F;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'IM Fell French Canon SC', serif ;
+            font-weight: 300;
+        }
+
+
+ /* section 3 */
+        .section3Index{
+            width: 100%;
+            display: grid;
+            grid-template: repeat(2,auto) / repeat(3,auto);
+            justify-items: center;
+            margin-bottom: 400px;
+        }
+
+        .boton1950-1960{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        }
+        .section3Index .textoEntreImagenes{
+            padding-bottom: 200px;
+        }
+
+        .section3Index .botonObras{
+            padding-bottom: 180px;
+        }
+
+
+
+/* footer */ /* FOOTER FOOTER FOOTER */
+
+
+
+        footer{
+            background-color:#D6CE8F;
+            height: 100%;
+        }
+
+        .footerContenedor{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,auto);
+            grid-template-areas:
+            "Visitanos Visitanos Visitanos"
+            "redes redes redes"
+            "nav nav nav";
+            height: 100%;
+        }
+
+        .footerVisitanos{
+            font-size: 60px;
+            text-align: center;
+            color:#090611 ;
+            font-family: 'IM Fell French Canon SC', serif;
+            font-weight: 200;
+            border: 4px #8D8A6C dashed;
+            padding: 0px 70px 5px 70px;
+            border-radius: 30px;
+            grid-area: Visitanos;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            justify-self: center;
+            align-self: center;
+            background-color: #DDD9B4;
+        }
+
+        .redes{
+            color: #090611;
+            grid-area: redes;
+            justify-self: center ;
+            margin-bottom: 10px;
+        }
+
+        .navFooter{
+            grid-area: nav;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            grid-column: 1 / 4;
+            height: 100%;
+            }
+
+        .sacarListaFooter{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: -40px;
+            margin-bottom: 50px;
+            
+        }
+
+
+        .navFooterLetra{
+            color: #090611;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: 'IM Fell French Canon SC', serif ;
+            list-style: none;
+            border: 1px solid #090611;
+            padding: 5px 10px 5px 10px;
+            border-radius: 30px;
+
+        }
+
+        /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */ /* BIOGRAFIA */
+
+        /* main */
+            /* section 1 */
+            .titulo{
+                font-size: 120px;
+                color: #D6CE8F;
+                text-align: center;
+                font-family: 'IM Fell French Canon', serif;
+                font-weight: 250;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 235px;
+            }
+
+            .imagenTitulo{
+                margin-bottom: 127px;
+                border-radius: 30px;
+                justify-content: center;
+            }
+
+            .tituloBiografia{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .subtitulo{
+                font-size: 36px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'IM Fell French Canon SC', serif ;
+                font-weight: 200;
+                padding-right: 170px;
+                padding-left: 170px;
+                margin-bottom: 300px;
+            }
+
+
+                /* <section 3  SECTION 3 SECTION 3 */
+
+
+            .introduccionBiografia{
+                display: grid;
+                grid-template-columns: 660px auto;
+                grid-template-rows: auto auto;
+                margin-bottom: 300px;
+            }
+            .preguntaBiografia{
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+
+            }
+            .imagenBiografia1{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+            .imagenBiografia1 img{
+                margin-left: -60px;
+            }
+            .walterGruen{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                margin-left: 0px;
+                padding-top: 20px;
+
+            }
+
+
+            .subBiografiaDos{
+                font-size: 48px;
+                text-align: center;
+                text-transform: uppercase;
+                color: white;
+                font-family: 'IM Fell French Canon SC', serif ;
+                font-weight: 200;
+                padding-right: 40px;
+            }
+
+
+            .subBiografiaDos h2{
+                font-size: 56px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'IM Fell French Canon SC', serif ;
+                font-weight: 200;
+            }
+
+            .imagenBiografia1 img{
+                width: 700px;
+                padding-left: 50px;
+                border-radius: 30px;
+            }
+
+            .textoBiografia{
+                color: white;
+                font-size: 22px;
+                text-align: justify;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+            }
+
+            figcaption{
+                color: white;
+                font-size: 18px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 100px;
+                text-align: center;
+
+            }
+            img{
+                border-radius: 40px;
+            }
+            .biografiaFechas{
+                text-transform: uppercase;
+                color: white;
+                font-family: 'IM Fell French Canon SC', serif ;
+                font-size: 50px;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            /* SECTION 4 SECTION 4 */ /* SECTION 4 SECTION 4 */ /* SECTION 4 SECTION 4 */
+
+            .section4{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(41,auto);
+                margin-top: 20px;
+                margin-bottom: 200px;
+            }
+            .textoBiografia{
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+
+
+            /* 1908 */
+
+            .div1908{
+                grid-column: 1 / 3;
+                grid-row: 1 / 2;
+                margin-bottom: 150px;
+            }
+
+            /* 1917.1924 */
+
+
+            .imagenBiografia2{
+                grid-column: 1 / 2;
+                grid-row: 2 / 6;
+                justify-self: center;
+            }
+            .fecha1917{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            .texto1917{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+            }
+            .fecha1924{
+                grid-column: 2 / 3;
+                grid-row: 4 / 5;
+            }
+            .texto1924{
+                grid-column: 2 / 3;
+                grid-row: 5 / 6;
+            }
+
+            .imagenBiografia2 figcaption{
+                margin-top: 5px;
+
+            }
+
+            /* <!-- 1930 1930 1930 1930 1930 --> */
+            .div1930{
+                grid-column: 1 / 3;
+                grid-row: 7 / 9;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                justify-self: center;
+            }
+
+            /* <!-- 1935 Y 1936 --><!-- 1935 Y 1936 --> */
+            .fecha1935{
+                grid-column: 1 / 2;
+                grid-row: 9 / 10;
+            }
+            .texto1935{
+                grid-column: 1 / 2;
+                grid-row: 10 / 11;
+                padding-right: 40px;
+            }
+            .fecha1936{
+                grid-column: 2 / 3;
+                grid-row: 9 / 10;
+            }
+            .texto1936{
+                grid-column: 2 / 3;
+                grid-row: 10 / 11;
+            }
+            .imagenBiografia3{
+                grid-column: 1 / 2;
+                grid-row: 10 / 13;
+                padding-top: 100px;
+                justify-self: center;
+            }
+            .imagenBiografia3 img{
+                height: 1000px;
+            }
+            .imagenBiografia4{
+                grid-column: 2 / 3;
+                grid-row: 10 / 13;
+                justify-self: center;
+                padding-top: 300px;
+            }
+            .imagenBiografia4 img{
+                width: 520px;
+            }
+
+            /* <!-- 1937 --><!-- 1937 --> */
+            .div1937{
+                grid-column: 1 / 3;
+                grid-row: 13 / 15;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+
+            /* <!-- 1938 --><!-- 1938 --> */
+            .imagenBiografia5 img{
+                width: 630px;
+            }
+            .imagenBiografia5{
+                grid-column: 1 / 2;
+                grid-row: 15 / 17;
+                justify-self: center;
+            }
+            .fecha1938{
+                grid-column: 2 / 3;
+                grid-row: 15 / 17;
+                padding-bottom: 250px;
+            }
+            .texto1938{
+                grid-column: 2 / 3;
+                grid-row: 15 / 17;
+                align-self: center;
+            }
+
+            /* <!-- 1939-1940 1939-1940 1939-1940 --> */
+            .fecha1939-1940{
+                grid-column: 2 / 3;
+                grid-row: 18 / 19;
+                margin-top: 100px;
+            }
+            .texto1939-1940{
+                grid-column: 2 / 3;
+                grid-row: 18 / 19;
+                margin-top: 200px;
+            }
+            .imagenBiografia6{
+                grid-column: 1 / 2;
+                grid-row: 18 / 19;
+                margin-top: 100px;
+                justify-self: center;
+            }
+
+            /* <!-- 1941 1941 1941 1941 --> */
+            .div1941{
+                margin-top: 100px;
+                grid-column: 1 / 3;
+                grid-row: 19 / 21;
+                margin-bottom: 100px;
+            }
+
+            /* <!-- 1942 1942 1942 1942 --> <!-- 1943-1944 --> <!-- 1943-1944 --> */
+            .fecha1942{
+                grid-column: 1 / 2;
+                grid-row: 21 / 22;
+            }
+            .texto1942{
+                grid-column: 1 / 2;
+                grid-row: 22 / 24;
+                padding-right: 50px;
+                margin-bottom: -100px;
+            }
+            .imagenBiografia7{
+                grid-column: 1 / 2;
+                grid-row: 23 / 25;
+                margin-top: 140px;
+                justify-self: center;
+                padding-right: 50px;
+            }
+            .imagenBiografia7 img{
+                width: 630px
+            }
+            .fecha1943-44{
+                grid-column: 2 / 3;
+                grid-row: 21 / 22;
+            }
+            .texto1943-44{
+                grid-column: 2 / 3;
+                grid-row: 22 / 23;
+                padding-left: 10px;
+                margin-bottom: 40px;
+            }
+            .imagenBiografia8{
+                grid-column: 2 / 3;
+                grid-row: 23 / 25;
+                justify-self: center;
+            }
+            .imagenBiografia8 img{
+                width: 520px;
+            }
+
+            /* <!-- 1947-1948  --> <!-- 1947-1948  --> */
+            .fecha1947-48{
+                grid-column: 2 / 3;
+                grid-row: 25 / 26;
+                margin-top: 100px;
+            }
+            .texto1947-48{
+                grid-column: 2 / 3;
+                grid-row: 25 / 27;
+                padding-top: 200px;
+            }
+            .fecha1949-52{
+                grid-column: 2 / 3;
+                grid-row: 27 / 28;
+            }
+            .texto1949-52{
+                grid-column: 2 / 3;
+                grid-row: 27 / 29;
+                padding-top: 100px;
+            }
+            .imagenBiografia9{
+                grid-column: 1 / 2;
+                grid-row: 25 / 29;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                justify-self: center;
+            }
+
+            /* <!-- 1955-1956 --> */
+            .div1955-1956{
+                grid-column: 1 / 3;
+                grid-row: 29 / 31;
+                margin-bottom: 100px;
+            }
+
+            /* <!-- 1958 1958 --> */
+            .div1958{
+                grid-column: 1 / 3;
+                grid-row: 31 / 33;
+                margin-bottom: 100px;
+            }
+
+            /* <!-- 1960 1960 1960 --> */
+            .div1960{
+                grid-column: 1 / 3;
+                grid-row: 33 / 35;
+                margin-bottom: 100px;
+            }
+
+            /* <!-- 1962 1962 1962 --> */
+            .fecha1962{
+                grid-column: 1 / 3;
+                grid-row: 35 / 36;
+            }
+            .texto1962{
+                grid-column: 1 / 3;
+                grid-row: 36 / 37;
+                margin-bottom: 30px;
+            }
+            .imagenBiografia10{
+                grid-column: 1 / 3;
+                grid-row: 37 / 38;
+                justify-self: center;
+                margin-bottom: 100px;
+            }
+
+        /* <!-- 1963 1963 1963 --> */
+            .fecha1963{
+                grid-column: 2 / 3;
+                grid-row: 38 / 39;
+                padding-top: 60px;
+            }
+            .texto1963{
+                grid-column: 2 / 3;
+                grid-row: 38 / 40;
+                align-self: center;
+                padding-bottom: 100px;
+            }
+            .fecha1964{
+                grid-column: 2 / 3;
+                grid-row: 39 / 41;
+                padding-top: 40px;
+
+            }
+            .texto1964{
+                grid-column: 2 / 3;
+                grid-row: 39 / 42;
+                padding-top: 120px;
+            }
+            .imagenBiografia11{
+                grid-column: 1 / 2;
+                grid-row: 38 / 42;
+                justify-self: center;
+            }
+
+
+
+
+
+
+
+
+
+/* OBRAS */  /* OBRAS OBRAS OBRAS OBRAS */ /* OBRAS */  /* OBRAS OBRAS OBRAS OBRAS */ /* OBRAS */  /* OBRAS OBRAS OBRAS OBRAS */ /* OBRAS */  /* OBRAS OBRAS OBRAS OBRAS */ /* OBRAS */  /* OBRAS OBRAS OBRAS OBRAS */
+
+.divObras{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 230px 70px 250px;
+    justify-items: center;
+    margin: 0px 10px 300px 10px;
+}
+
+.obrasIzquierda{
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+.obrasDerecha{
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+}
+
+.textoObras{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.ver{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+/* OBRAS SEGUN FECHAS */ /* OBRAS SEGUN FECHAS */ /* OBRAS SEGUN FECHAS */ /* OBRAS SEGUN FECHAS */ /* OBRAS SEGUN FECHAS */
+
+
+.card{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #18151F;
+}
+
+
+.card img{
+    padding: 20px;
+    border-radius: 40px;
+
+
+}
+.card-group{
+    background-color: #18151F;
+margin-bottom: 250px;
+}
+.card-body{
+background-color: #18151F;
+border: none;
+
+} 
+
+.card-title{
+text-align: center;}
+
+.card-text{
+    text-align: center;
+    color: #DDD9B4;
+}
+
+.imagenObras3040{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 346px;
+}
+
+.imagenObras4050{
+    height: 947px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 800px;
+}
+
+
+.contenedorObras{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 700px;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.tamañoDeImagenes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 250px;
+    align-self: center;
+    justify-self: center;
+    padding: 60px 50px 5px 50px;
+    width: 550px;
+}
+
+.contenedorObras .tamañoDeImagenes{
+    background-color: #18151F;
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+
+
+.tamañoDeImagenes img{
+    height: 550px;
+    justify-self: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.tamañoDeImagenes figcaption{
+    padding-bottom: 20px;
+    margin-right: 30px;
+}
+
+.obra1{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombreObra{
+    color: #D6CE8F;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+
+
+
+
+
+    
+
+    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */
+    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */
+    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */    /* BIOGRAFIA RESPONSIVE MOBILE - DESKTOP */
+
+
+/* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 */
+/* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 */
+/* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 *//* 1250 */
+
+    @media(max-width:1250px){
+        .introduccionBiografia{
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+        }
+        .preguntaBiografia{
+            width: 700px;
+            padding: 0px;
+        }
+        .walterGruen{
+            grid-row: 1 / 3;
+            padding-top: 50px;
+        }
+        .imagenBiografia1{
+            width: 600px;
+            justify-self: center;
+        }
+        .imagenBiografia1 img{
+            width: 600px;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+
+
+    /* 1200px */    /* 1200px */     /* 1200px */    /* 1200px */    /* 1200px */    /* 1200px */
+    /* 1200px */    /* 1200px */    /* 1200px */    /* 1200px */    /* 1200px */    /* 1200px */
+    /* 1200px */    /* 1200px */    /* 1200px */    /* 1200px */
+
+    @media(max-width:1200px){
+
+        .titulo{
+            font-size: 130px;
+        }
+        .imagenTitulo{
+            width: 800px;
+        }
+        .subtitulo{
+            font-size: 34px;
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+
+        .introduccionBiografia{
+            grid-template: auto auto auto / auto;
+        }
+        .subBiografiaDos{
+            padding-right: 0px;
+        }
+        .preguntaBiografia{
+            grid-column: 1 / 2;
+            margin-bottom: 20px;
+            justify-self: center;
+            width: 900px;
+        }
+        .imagenBiografia1{
+            grid-column: 1/2;
+            width: 700px;
+            justify-self: center;
+        }
+        .imagenBiografia1 img{
+            width: 700px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .walterGruen{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+        .textoBiografia{
+            padding-left: 20px;
+        }
+
+        .section4{
+            margin: 0px;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(30,auto);
+        }
+
+            /* 1908 */
+        .div1908{
+            grid-column: 1 / 2;
+            grid-row:1 / 3;
+            margin-bottom: 80px;
+        }
+
+            /* 1917 */
+        .fecha1917{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4 ;
+            margin-top: 0px;
+            ;
+        }
+        .texto1917{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4 ;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding-top: 20px;
+        }
+    
+        /* 1924 */
+        .fecha1924{
+            grid-column: 1 / 2;
+            grid-row: 5 / 6 ;
+            margin-top: 0px;
+        }
+        .texto1924{
+            grid-column: 1 / 2;
+            grid-row: 5 / 6 ;
+            padding-top: 100px;
+            margin-bottom: 10px;
+        }
+        .imagenBiografia2{
+            width: 700px;
+            grid-column: 1 / 2;
+            grid-row: 4 / 5 ;
+            margin-top: 0px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia2 img{
+            width: 700px;
+        }
+
+        /* 1930 *//* 1930 */
+
+        .div1930{
+            grid-column: 1 / 2;
+            grid-row: 6 / 7 ;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            }
+
+        /* 1935 */
+        .fecha1935{
+            grid-column: 1 / 2;
+            grid-row: 7 / 8 ;
+            margin-bottom: 0px;
+        }
+            .texto1935{
+            grid-column: 1 / 2;
+            grid-row: 7 / 8 ;
+            padding-top: 100px;
+            padding-right: 0px;
+            text-align: center;       
+            }
+        .imagenBiografia3{
+            width: 700px;
+            padding-right: 0px;
+            grid-column: 1 / 2;
+            grid-row: 8 / 9;
+            padding-top: 0px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia3 img{
+            width: 700px;
+        }
+
+        /* 1936 */
+        .fecha1936{
+            grid-column: 1 / 2;
+            grid-row: 9 / 10;
+            margin-bottom: 0px;
+        }
+        .texto1936{
+            grid-column: 1 / 2;
+            grid-row: 9 / 10;
+            padding-top: 100px;
+            }
+        .imagenBiografia4{
+            width: 700px;
+            padding-right: 0px;
+            grid-column: 1 / 2;
+            grid-row: 10 / 11;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding-top: 0px;
+            }
+        .imagenBiografia4 img{
+            width: 700px;
+            }
+        
+    /* 1937 */ /* 1937 */
+        .div1937{
+            grid-column: 1 / 2;
+            grid-row: 11 / 12;
+            margin-top: 0px;
+            margin-bottom: 80px;
+        }
+
+    /* 1938 */
+        .imagenBiografia5{
+            grid-column: 1 / 2;
+            grid-row: 13 / 14;
+            margin-bottom: 80px;
+            width: 700px;
+            padding-top: 0px;
+            margin-top: 80px;
+        }
+        .imagenBiografia5 img{
+            width: 700px;
+        }
+        .fecha1938{
+            grid-column: 1 / 2;
+            grid-row: 12 / 13;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            align-self: none;
+        }
+
+        .texto1938{
+            grid-column: 1 / 2;
+            grid-row: 12 / 13;
+            padding-top: 100px;
+            margin-bottom: 0px;
+        }
+
+    /* 1939 */
+        .imagenBiografia6{
+            grid-column: 1 / 2;
+            grid-row: 15 / 16;
+            width: 700px;
+            margin-top: 80px;
+        }
+        .imagenBiografia6 img{
+            width: 700px;
+        }
+        .texto1939-1940{
+            grid-column: 1 / 2;
+                grid-row: 14 / 15;
+            padding-top: 100px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .fecha1939-1940{
+            grid-column: 1 / 2;
+            grid-row: 14 / 15;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        /* 1941 */
+        .div1941{
+            grid-column: 1 / 2;
+        grid-row: 16 / 17;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        }
+
+        /* 1942 */
+        .imagenBiografia7{
+            grid-column: 1 / 2;
+            grid-row: 18 / 19;
+            width: 700px;
+            margin-top: 0px;
+            padding-right: 0px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia7 img{
+            width: 700px;
+        }
+        .fecha1942{
+            margin-bottom: 0px;
+            grid-column: 1 / 2;
+            grid-row: 17 / 18;
+        }
+        .texto1942{
+            grid-column: 1 / 2;
+            grid-row: 17 / 18;
+            padding-top: 100px;
+            padding-right: 20px;
+            margin-bottom: 0px;
+        }
+
+        /* 1943 */
+            .imagenBiografia8{
+                grid-column: 1 / 2;
+                grid-row: 20 / 21;
+                width: 700px;
+                margin-top: 80px;
+            }
+            .imagenBiografia8 img{
+                width: 700px;
+            }
+            .fecha1943-44{
+                grid-column: 1 / 2;
+                grid-row: 19 / 20;
+                margin-bottom: 0px;
+            }
+            .texto1943-44{
+                grid-column: 1 / 2;
+                grid-row: 19 / 20;
+                padding-top: 100px;
+                margin-bottom: 0px;
+            }
+
+        /* 1947-1948 */
+            .fecha1947-48{
+                grid-column: 1 / 2;
+                grid-row: 21 / 22;
+                margin-top: 80px;
+                margin-bottom: 0px;
+            }
+            .texto1947-48{
+                grid-column: 1 / 2;
+                grid-row: 21 / 22;
+                padding-top: 180px;
+                margin-bottom: 0px;
+            }
+            .imagenBiografia9{
+                grid-column: 1 / 2;
+                grid-row: 22 / 23;
+                width: 700px;
+                margin-top: 80px;
+                margin-bottom: 80px;
+                justify-self: center;
+            }
+            .imagenBiografia9 img{
+                width: 700px;
+            }
+    
+        /* 1949-1952 */
+            .fecha1949-52{
+                grid-column: 1 / 2;
+                grid-row: 23 / 24;
+                padding-top: 0px
+                ;
+            }
+            .texto1949-52{
+                grid-column: 1 / 2;
+                grid-row: 23 / 24;
+                margin-bottom: 80px;
+            }
+
+        /* 1955-1956 */
+            .div1955-1956{
+                grid-column: 1 / 2;
+                grid-row: 24 / 25;
+                margin-bottom: 80px;
+            }
+
+        /* 1958 */
+            .div1958{
+                grid-column: 1 / 2;
+                grid-row: 25 / 26;
+                margin-bottom: 80px;
+            }
+
+        /* 1960 */
+            .div1960{
+                grid-column: 1 / 2;
+                grid-row: 26 / 27;
+                margin-bottom: 80px;
+            }
+
+        /* 1962 */
+            .imagenBiografia10{
+                grid-column: 1 / 2;
+                grid-row: 28 / 29;
+                width: 950px;
+                margin-bottom: 80px;
+            }
+            .imagenBiografia10 img{
+                width: 950px;
+            }
+            .fecha1962{
+                grid-column: 1 / 2;
+                grid-row: 27 / 28;
+                margin-bottom: 0px;
+            }
+            .texto1962{
+                grid-column: 1 / 2;
+                grid-row: 27 / 28;
+                padding-top: 100px;
+                margin-bottom: 80px;
+            }
+
+        /* 1963 */
+            .fecha1963{
+                grid-column: 1 / 2;
+                grid-row: 29 / 30;
+                margin-bottom: 0px;
+                padding-top: 0px;
+            }
+            .texto1963{
+                grid-column: 1 / 2;
+                grid-row: 29 / 30;
+                padding-top: 90px;
+                padding-bottom: 0px;
+                margin-bottom: 80px;
+                
+            }
+
+        /* 1964 */
+            .imagenBiografia11{
+                grid-column: 1 / 2;
+                grid-row: 31 / 32;
+                width: 700px;
+                margin-top: 80px;
+                margin-bottom: 250px;
+            }
+            .imagenBiografia11 img{
+                width: 700px;
+            }
+            .fecha1964{
+                grid-column: 1 / 2;
+                grid-row: 30 / 31;
+                padding-top: 0px;
+                margin-bottom: 0px;
+            }
+            .texto1964{
+                grid-column: 1 / 2;
+                grid-row: 30 / 31;
+                padding-top: 100px;
+            }
+
+    }
+
+    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */
+    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */
+    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */    /* 1024 */
+    @media(max-width:1024px){
+
+        .imagenTitulo{
+            width: 700px;
+        }
+        .preguntaBiografia{
+            width: 750px;
+        }
+
+        .imagenBiografia1{
+            width: 650px;
+        }
+        .imagenBiografia1 img{
+            width: 650px;
+        }
+
+        .imagenBiografia2{
+            width: 600px;
+        }
+        .imagenBiografia2 img{
+            width: 600px;
+        }
+        .imagenBiografia3{
+            width: 600px;
+        }
+        .imagenBiografia3 img{
+            width: 600px;
+        }
+        .imagenBiografia4{
+            width: 600px;
+        }
+        .imagenBiografia4 img{
+            width: 600px;
+        }
+        .imagenBiografia5{
+            width: 600px;
+        }
+        .imagenBiografia5 img{
+            width: 600px;
+        }
+        .imagenBiografia6{
+            width: 600px;
+        }
+        .imagenBiografia6 img{
+            width: 600px;
+        }
+        .imagenBiografia7{
+            width: 600px;
+        }
+        .imagenBiografia7 img{
+            width: 600px;
+        }
+        .imagenBiografia8{
+            width: 600px;
+        }
+        .imagenBiografia8 img{
+            width: 600px;
+        }
+        .imagenBiografia9{
+            width: 600px;
+        }
+        .imagenBiografia9 img{
+            width: 600px;
+        }
+        .imagenBiografia10{
+            width: 750px;
+        }
+        .imagenBiografia10 img{
+            width: 750px;
+        }
+        .imagenBiografia11{
+            width: 600px;
+        }
+        .imagenBiografia11 img{
+            width: 600px;
+        }
+    }
+
+
+
+    /* 768px */    /* 768px */    /* 768px */    /* 768px */    /* 768px */
+    /* 768px */    /* 768px */    /* 768px */    /* 768px */    /* 768px */
+    /* 768px */    /* 768px */    /* 768px */    /* 768px */    /* 768px */
+
+    @media(max-width:768px){
+
+        /* Footer */
+        .footerVisitanos{
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+        .redes{
+            justify-self: center;
+        }
+        .redes a img{
+            height: 50px;
+        }
+        /* footer */
+
+
+        .tituloBiografia img{
+            width: 650px;
+        }
+
+        .subtitulo{
+            font-size: 26px;
+        }
+
+        .introduccionBiografia{
+            margin-bottom: 250px;
+        }
+
+        .walterGruen{
+            grid-column: 1 / 3;
+            grid-row: 3 / 4;
+        }
+
+        .subBiografiaDos{
+            font-size: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .preguntaBiografia{
+            width: 100%;
+            justify-self: center;
+            grid-column: 1 / 3;
+        }
+
+        .imagenBiografia1{
+            grid-column: 1 / 3;
+            width: 650px;
+            padding: 0px;
+            justify-self: center;
+            margin-left: 0px;
+        }
+        .imagenBiografia1 img{
+            width: 650px;
+            padding: 0px;
+            grid-column: 1 / 3;
+            justify-items: center;
+            margin-left: 0px;
+        }
+
+        .textoBiografia{
+            font-size: 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 15px;
+        }
+
+        .section4{
+            margin: 0px;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(30,auto);
+        }
+
+            /* 1908 */
+        .div1908{
+            grid-column: 1 / 2;
+            grid-row:1 / 3;
+        }
+
+            /* 1917 */
+        .fecha1917{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4 ;
+            ;
+        }
+        .texto1917{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4 ;
+            padding-top: 70px;
+        }
+    
+        /* 1924 */
+        .fecha1924{
+            grid-column: 1 / 2;
+            grid-row: 4 / 5 ;
+            margin-top: 0px;
+        }
+        .texto1924{
+            grid-column: 1 / 2;
+            grid-row: 4 / 5 ;
+            padding-top: 70px;
+            margin-bottom: 70px;
+        }
+        .imagenBiografia2{
+            width: 600px;
+            grid-column: 1 / 2;
+            grid-row: 5 / 6 ;
+            margin-top: 0px;
+        }
+        .imagenBiografia2 img{
+            width: 600px;
+        }
+
+        /* 1930 *//* 1930 */
+
+        .div1930{
+            grid-column: 1 / 2;
+            grid-row: 6 / 7 ;
+            margin-top: 0px;
+            margin-bottom: 80px;
+            }
+
+        /* 1935 */
+        .fecha1935{
+            grid-column: 1 / 2;
+            grid-row: 7 / 8 ;
+            margin-bottom: 0px;
+        }
+            .texto1935{
+            grid-column: 1 / 2;
+            grid-row: 7 / 8 ;
+            padding-top: 70px;
+        }
+        .imagenBiografia3{
+            width: 600px;
+            padding-right: 0px;
+            grid-column: 1 / 2;
+            grid-row: 8 / 9;
+            padding-top: 10px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia3 img{
+            width: 600px;
+        }
+
+        /* 1936 */
+        .fecha1936{
+            grid-column: 1 / 2;
+            grid-row: 9 / 10;
+            margin-bottom: 0px;
+        }
+        .texto1936{
+            grid-column: 1 / 2;
+            grid-row: 9 / 10;
+            padding-top: 70px;
+            }
+        .imagenBiografia4{
+            width: 600px;
+            padding-right: 0px;
+            grid-column: 1 / 2;
+            grid-row: 10 / 11;
+            padding-top: 10px;
+            margin-bottom: 80px;
+            }
+        .imagenBiografia4 img{
+            width: 600px;
+            }
+        
+    /* 1937 */ /* 1937 */
+        .div1937{
+            grid-column: 1 / 2;
+            grid-row: 11 / 12;
+            margin-top: 0px;
+            margin-bottom: 80px;
+        }
+
+    /* 1938 */
+        .imagenBiografia5{
+            grid-column: 1 / 2;
+            grid-row: 13 / 14;
+            margin-bottom: 80px;
+            width: 600px;
+            padding-top: 10px;
+        }
+        .imagenBiografia5 img{
+            width: 600px;
+        }
+        .fecha1938{
+            grid-column: 1 / 2;
+            grid-row: 12 / 13;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            align-self: none;
+        }
+
+        .texto1938{
+            grid-column: 1 / 2;
+            grid-row: 12 / 13;
+            padding-top: 70px;
+            margin-bottom: 0px;
+        }
+
+    /* 1939 */
+        .imagenBiografia6{
+            grid-column: 1 / 2;
+            grid-row: 15 / 16;
+            width: 600px;
+            margin-top: 0px;
+        }
+        .imagenBiografia6 img{
+            width: 600px;
+        }
+        .texto1939-1940{
+            grid-column: 1 / 2;
+                grid-row: 14 / 15;
+            padding-top: 70px;
+            margin-bottom: 80px;
+        }
+        .fecha1939-1940{
+            grid-column: 1 / 2;
+            grid-row: 14 / 15;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        /* 1941 */
+        .div1941{
+            grid-column: 1 / 2;
+        grid-row: 16 / 17;
+        }
+
+        /* 1942 */
+        .imagenBiografia7{
+            grid-column: 1 / 2;
+            grid-row: 18 / 19;
+            width: 600px;
+            margin-top: 0px;
+            padding-right: 0px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia7 img{
+            width: 600px;
+        }
+        .fecha1942{
+            margin-bottom: 0px;
+            grid-column: 1 / 2;
+            grid-row: 17 / 18;
+        }
+        .texto1942{
+            grid-column: 1 / 2;
+            grid-row: 17 / 18;
+            padding-top: 70px;
+            margin-bottom: 80px;
+        }
+
+        /* 1943 */
+            .imagenBiografia8{
+                grid-column: 1 / 2;
+                grid-row: 20 / 21;
+                width: 600px;
+            }
+            .imagenBiografia8 img{
+                width: 600px;
+            }
+            .fecha1943-44{
+                grid-column: 1 / 2;
+                grid-row: 19 / 20;
+                margin-bottom: 0px;
+            }
+            .texto1943-44{
+                grid-column: 1 / 2;
+                grid-row: 19 / 20;
+                padding-top: 70px;
+                margin-bottom: 10px;
+            }
+
+        /* 1947-1948 */
+            .fecha1947-48{
+                grid-column: 1 / 2;
+                grid-row: 21 / 22;
+                margin-top: 80px;
+                margin-bottom: 0px;
+            }
+            .texto1947-48{
+                grid-column: 1 / 2;
+                grid-row: 21 / 22;
+                padding-top: 160px;
+                margin-bottom: 80px;
+            }
+            .imagenBiografia9{
+                grid-column: 1 / 2;
+                grid-row: 22 / 23;
+                width: 600px;
+                margin-top: 0px;
+                margin-bottom: 80px;
+                justify-self: center;
+            }
+            .imagenBiografia9 img{
+                width: 600px;
+            }
+    
+        /* 1949-1952 */
+            .fecha1949-52{
+                grid-column: 1 / 2;
+                grid-row: 23 / 24;
+            }
+            .texto1949-52{
+                grid-column: 1 / 2;
+                grid-row: 23 / 24;
+            }
+
+        /* 1955-1956 */
+            .div1955-1956{
+                grid-column: 1 / 2;
+                grid-row: 24 / 25;
+                margin-bottom: 80px;
+            }
+
+        /* 1958 */
+            .div1958{
+                grid-column: 1 / 2;
+                grid-row: 25 / 26;
+                margin-bottom: 80px;
+            }
+
+        /* 1960 */
+            .div1960{
+                grid-column: 1 / 2;
+                grid-row: 26 / 27;
+                margin-bottom: 80px;
+            }
+
+        /* 1962 */
+            .imagenBiografia10{
+                grid-column: 1 / 2;
+                grid-row: 28 / 29;
+                width: 600px;
+                margin-bottom: 80px;
+            }
+            .imagenBiografia10 img{
+                width: 600px;
+            }
+            .fecha1962{
+                grid-column: 1 / 2;
+                grid-row: 27 / 28;
+                margin-bottom: 0px;
+            }
+            .texto1962{
+                grid-column: 1 / 2;
+                grid-row: 27 / 28;
+                padding-top: 70px;
+                margin-bottom: 80px;
+            }
+
+        /* 1963 */
+            .fecha1963{
+                grid-column: 1 / 2;
+                grid-row: 29 / 30;
+                margin-bottom: 0px;
+            }
+            .texto1963{
+                grid-column: 1 / 2;
+                grid-row: 29 / 30;
+                padding-top: 70px;
+                margin-bottom: 80px;
+            }
+
+        /* 1964 */
+            .imagenBiografia11{
+                grid-column: 1 / 2;
+                grid-row: 31 / 32;
+                width: 600px;
+                margin-bottom: 250px;
+            }
+            .imagenBiografia11 img{
+                width: 600px;
+            }
+            .fecha1964{
+                grid-column: 1 / 2;
+                grid-row: 30 / 31;
+                padding-top: 0px;
+                margin-bottom: 0px;
+            }
+            .texto1964{
+                grid-column: 1 / 2;
+                grid-row: 30 / 31;
+                padding-top: 70px;
+            }
+    }
+
+
+/* 650px *//* 650px *//* 650px *//* 650px *//* 650px *//* 650px */
+/* 650px *//* 650px *//* 650px *//* 650px *//* 650px *//* 650px */
+/* 650px *//* 650px *//* 650px *//* 650px *//* 650px *//* 650px */
+@media(max-width:650px){
+    .tituloBiografia img{
+        width: 600px;
+    }
+
+    .imagenBiografia1{
+        width: 600px;
+    }
+    .imagenBiografia1 img{
+        width: 600px
+        ;
+    }
+
+    .textoBiografia{
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        margin-bottom: 150px;
+        font-size: 22px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* 600px *//* 600px *//* 600px *//* 600px *//* 600px */
+/* 600px *//* 600px *//* 600px *//* 600px *//* 600px */
+/* 600px *//* 600px *//* 600px *//* 600px *//* 600px */
+@media(max-width:600px){
+    .tituloBiografia img{
+        width: 540px;
+    }
+
+    .imagenBiografia1{
+        width: 540px;
+    }
+    .imagenBiografia1 img{
+        width: 540px
+        ;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+    }
+
+    .imagenBiografia2{
+        width: 500px;
+    }
+    .imagenBiografia2 img{
+        width: 500px;
+    }
+
+    .imagenBiografia3{
+        width: 500px;
+    }
+    .imagenBiografia3 img{
+        width: 500px;
+    }
+
+    .imagenBiografia4{
+        width: 500px;
+    }
+    .imagenBiografia4 img{
+        width: 500px;
+    }
+
+    .imagenBiografia5{
+        width: 500px;
+    }
+    .imagenBiografia5 img{
+        width: 500px;
+    }
+
+    .imagenBiografia6{
+        width: 500px;
+    }
+    .imagenBiografia6 img{
+        width: 500px;
+    }
+
+    .imagenBiografia7{
+        width: 500px;
+    }
+    .imagenBiografia7 img{
+        width: 500px;
+    }
+
+    .imagenBiografia8{
+        width: 500px;
+    }
+    .imagenBiografia8 img{
+        width: 500px;
+    }
+
+    .imagenBiografia9{
+        width: 500px;
+        padding: 0px;
+    }
+    .imagenBiografia9 img{
+        width: 500px;
+    }
+
+    .imagenBiografia10{
+        width: 500px;
+    }
+    .imagenBiografia10 img{
+        width: 500px;
+    }
+
+    .imagenBiografia11{
+        width: 500px;
+    }
+    .imagenBiografia11 img{
+        width: 500px;
+    }
+}
+/* 540px *//* 540px *//* 540px */
+/* 540px *//* 540px */
+@media(max-width:540px){
+    .tituloBiografia img{
+        width: 500px;
+    }
+
+    .imagenBiografia1{
+        width: 500px;
+    }
+    .imagenBiografia1 img{
+        width: 500px
+        ;
+    }
+    .titulo{
+        font-size: 90px;
+    }
+    .subtitulo{
+        font-size: 18px;
+}
+    .preguntaBiografia{
+        font-size: 28px;
+    }
+    
+    /* footer */
+    .footerVisitanos{
+        font-size: 40px;
+    }
+    .redes a img{
+        height: 35px ;
+    }
+}
+
+/* 500px *//* 500px *//* 500px *//* 500px *//* 500px *//* 500px */
+/* 500px *//* 500px *//* 500px *//* 500px *//* 500px *//* 500px */
+/* 500px *//* 500px *//* 500px *//* 500px *//* 500px *//* 500px */
+@media(max-width:500px){
+    .tituloBiografia img{
+        width: 420px;
+    }
+
+    .imagenBiografia1{
+        width: 420px;
+    }
+    .imagenBiografia1 img{
+        width: 420px
+        ;
+    }
+    .imagenBiografia2{
+        width: 420px;
+    }
+    .imagenBiografia2 img{
+        width: 420px;
+    }
+
+    .imagenBiografia3{
+        width: 420px;
+    }
+    .imagenBiografia3 img{
+        width: 420px;
+    }
+
+    .imagenBiografia4{
+        width: 420px;
+    }
+    .imagenBiografia4 img{
+        width: 420px;
+    }
+
+    .imagenBiografia5{
+        width: 420px;
+    }
+    .imagenBiografia5 img{
+        width: 420px;
+    }
+
+    .imagenBiografia6{
+        width: 420px;
+    }
+    .imagenBiografia6 img{
+        width: 420px;
+    }
+
+    .imagenBiografia7{
+        width: 420px;
+    }
+    .imagenBiografia7 img{
+        width: 420px;
+    }
+
+    .imagenBiografia8{
+        width: 420px;
+    }
+    .imagenBiografia8 img{
+        width: 420px;
+    }
+
+    .imagenBiografia9{
+        width: 420px;
+    }
+    .imagenBiografia9 img{
+        width: 420px;
+    }
+
+    .imagenBiografia10{
+        width: 420px;
+    }
+    .imagenBiografia10 img{
+        width: 420px;
+    }
+
+    .imagenBiografia11{
+        width: 420px;
+    }
+    .imagenBiografia11 img{
+        width: 420px;
+    }
+}
+
+    /* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px */
+/* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px */
+
+@media(max-width:425px){
+
+    .introduccionBiografia{
+        grid-template: repeat(3,auto) / 100%;
+        justify-items: center;
+    }
+    
+    .titulo{
+        font-size: 90px;
+        margin-top: 70px;
+    }
+
+    .subtitulo{
+        margin-bottom: 100px;
+    }
+
+    .imagenTitulo{
+        margin-bottom: 100px;
+    }
+
+    .tituloBiografia img{
+        width: 375px;
+    }
+
+    .subBiografiaDos{
+        margin-top: 100px;
+    }
+
+    .preguntaBiografia{
+        font-size: 26px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        font-size: 28px;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        
+    .imagenBiografia1{
+        width: 375px;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+            padding-left: 0px;
+            justify-self: center;
+            margin-bottom: 20px;
+    }
+    .imagenBiografia1 img{
+        width: 375px;
+        margin-left: 0px;
+        padding-left: 0%;
+        padding-right: 0px;
+        justify-self: center;
+    }
+
+    .textoBiografia{
+        font-size: 16px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .introduccionBiografia{
+        margin-bottom: 250px;
+    }
+    .walterGruen{
+        margin-bottom: 0px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        padding-left: 10px;
+    }
+
+    .section4{
+        margin-bottom: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* 1924 */
+    .imagenBiografia2 img{
+        width: 375px;
+    }
+    .imagenBiografia2{
+        width: 375px;
+    }
+
+        /* 1935 */
+    .imagenBiografia3{
+        width: 375px;
+    }
+    .imagenBiografia3 img{
+        width: 375px;
+    }
+
+        /* 1936 */
+    .imagenBiografia4{
+        width: 375px;
+    }
+    .imagenBiografia4 img{
+        width: 375px;
+    }
+
+    /* 1938 */
+    .imagenBiografia5{
+        width: 375px;
+    }
+    .imagenBiografia5 img{
+        width: 375px;
+    }
+        /* 1939-1940 */
+    .imagenBiografia6{
+        width: 375px;
+    }
+    .imagenBiografia6 img{
+        width: 375px;
+    }
+
+        /* 1942 */
+    .imagenBiografia7{
+        width: 375px;
+    }
+    .imagenBiografia7 img{
+        width: 375px;
+    }
+
+        /* 1943-1944 */
+    .imagenBiografia8{
+        width: 375px;
+    }
+    .imagenBiografia8 img{
+        width: 375px;
+    }
+
+        /* 1947-1948 */
+    .imagenBiografia9{
+        width: 375px;
+    }
+    .imagenBiografia9 img{
+        width: 375px;
+    }
+
+/* 1962 */
+.imagenBiografia10{
+    width: 375px;
+}
+.imagenBiografia10 img{
+    width: 375px;
+}
+
+
+/* 1964 */
+.imagenBiografia11{
+    width: 375px;
+}
+.imagenBiografia11 img{
+    width: 375px;
+}
+}
+
+
+/* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px */
+/* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px */
+
+
+/* Footer */
+.sacarListaFooter li a{
+    font-size: 14px;
+}
+
+.footerVisitanos{
+    margin-top: 10px;
+}
+
+/* footer */
+
+.redes a img{
+    padding-top: 5px;
+}
+
+@media(max-width:375px){
+    .titulo{
+        font-size: 70px;
+        margin-top: 70px;
+    }
+
+    .subtitulo{
+        margin-bottom: 100px;
+    }
+
+    .imagenTitulo{
+        margin-bottom: 100px;
+    }
+
+    .tituloBiografia img{
+        width: 320px;
+    }
+    
+    .subBiografiaDos{
+        margin-top: 100px;
+    }
+    .preguntaBiografia{
+        font-size: 30px;
+    }
+
+    .imagenBiografia1{
+        width: 320px;
+
+    }
+    .imagenBiografia1 img{
+        width: 320px;
+        margin-left: 0px;
+    }
+    .textoBiografia{
+        font-size: 16px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .introduccionBiografia{
+        margin-bottom: 100px;
+    }
+    .walterGruen{
+        margin-bottom: 100px;
+    }
+
+    .section4{
+        margin-right: 0px;
+    }
+
+        /* 1924 */
+        .imagenBiografia2 img{
+            width: 320px;
+        }
+        .imagenBiografia2{
+            width: 320px;
+        }
+            /* 1935 */
+        .imagenBiografia3{
+            width: 320px;
+            padding-right: 0px;
+        }
+        .imagenBiografia3 img{
+            width: 320px;
+        }
+            /* 1936 */
+        .imagenBiografia4{
+            width: 320px;
+            padding-right: 0px;
+        }
+        .imagenBiografia4 img{
+            width: 320px;
+        }
+
+            /* 1938 */
+        .imagenBiografia5{
+            width: 320px;
+            padding-top: 10px;
+        }
+        .imagenBiografia5 img{
+            width: 320px;
+        }
+
+        .fecha1938{
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            align-self: none;
+        }
+
+        .texto1938{
+            padding-top: 70px;
+            margin-bottom: 0px;
+        }
+
+            /* 1939-1940 */
+        .imagenBiografia6{
+            width: 320px;
+            margin-top: 0px;
+        }
+        .imagenBiografia6 img{
+            width: 320px;
+        }
+        .texto1939-1940{
+            padding-top: 70px;
+        }
+        .fecha1939-1940{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+            /* 1942 */
+        .imagenBiografia7{
+            width: 320px;
+            margin-top: 0px;
+            padding-right: 0px;
+            margin-bottom: 80px;
+        }
+        .imagenBiografia7 img{
+            width: 320px;
+        }
+        .fecha1942{
+            margin-bottom: 0px;
+        }
+        .texto1942{
+            padding-top: 70px;
+            margin-bottom: 10px;
+        }
+
+            /* 1943-1944 */
+        .imagenBiografia8{
+            width: 320px;
+        }
+        .imagenBiografia8 img{
+            width: 320px;
+        }
+        .fecha1943-44{
+            margin-bottom: 0px;
+        }
+        .texto1943-44{
+            padding-top: 70px;
+            margin-bottom: 10px;
+        }
+
+            /* 1947-1948 */
+        .fecha1947-48{
+            margin-top: 80px;
+            margin-bottom: 0px;
+        }
+        .texto1947-48{
+            padding-top: 160px;
+        }
+        .imagenBiografia9{
+            width: 320px;
+            margin-top: 0px;
+            margin-bottom: 80px;
+            justify-self: center;
+        }
+        .imagenBiografia9 img{
+            width: 320px;
+        }
+
+        /* 1955-1956 */
+    .div1955-1956{
+        margin-bottom: 80px;
+    }
+
+    /* 1958 */
+    .div1958{
+        margin-bottom: 80px;
+    }
+
+    /* 1960 */
+    .div1960{
+        margin-bottom: 80px;
+    }
+
+    /* 1962 */
+    .imagenBiografia10{
+        width: 320px;
+        margin-bottom: 80px;
+    }
+    .imagenBiografia10 img{
+        width: 320px;
+    }
+    .fecha1962{
+        margin-bottom: 0px;
+    }
+    .texto1962{
+        padding-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    /* 1963 */
+    .fecha1963{
+        margin-bottom: 0px;
+    }
+    .texto1963{
+        padding-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    /* 1964 */
+    .imagenBiografia11{
+        width: 320px;
+    }
+    .imagenBiografia11 img{
+        width: 320px;
+    }
+    .fecha1964{
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .texto1964{
+        padding-top: 70px;
+    }
+
+
+}
+
+
+    /* 320px */     /* 320px */    /* 320px */    /* 320px */    /* 320px */
+
+@media (max-width:320px){
+
+    .titulo{
+        font-size: 70px;
+    }
+    .subtitulo{
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+
+    .tituloBiografia img{
+        width: 300px;
+    }
+
+    .imagenTitulo{
+        margin-bottom: 100px;
+        margin-bottom: 50px;
+    }
+
+    .subBiografiaDos{
+        margin-top: 100px;
+    }
+
+    .preguntaBiografia{
+        font-size: 26px;
+    }
+
+    .imagenBiografia1{
+        width: 300px;
+    }
+
+    .imagenBiografia1 img{
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .textoBiografia{
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .introduccionBiografia{
+        margin-bottom: 120px;
+    }
+
+    .section4{
+        margin-right: 0px;
+    }
+
+    /* 1924 */
+    .imagenBiografia2 img{
+        width: 300px;
+    }
+    .imagenBiografia2{
+        width: 300px;
+    }
+
+    /* 1935 */
+    .imagenBiografia3{
+        width: 300px;
+        padding-right: 0px;
+    }
+    .imagenBiografia3 img{
+        width: 300px;
+    }
+
+    /* 1936 */
+    .imagenBiografia4{
+        width: 300px;
+        padding-right: 0px;
+    }
+    .imagenBiografia4 img{
+        width: 300px;
+    }
+
+    /* 1938 */
+    .imagenBiografia5{
+        width: 300px;
+        padding-top: 10px;
+    }
+    .imagenBiografia5 img{
+        width: 300px;
+    }
+
+    .fecha1938{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        align-self: none;
+    }
+
+    .texto1938{
+        padding-top: 70px;
+        margin-bottom: 0px;
+    }
+
+
+
+    /* 1939-1940 */
+    .imagenBiografia6{
+        width: 300px;
+        margin-top: 0px;
+    }
+    .imagenBiografia6 img{
+        width: 300px;
+    }
+    .texto1939-1940{
+        padding-top: 70px;
+    }
+    .fecha1939-1940{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* 1941 */
+    .div1941{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    /* 1942 */
+    .imagenBiografia7{
+        width: 300px;
+        margin-top: 0px;
+        padding-right: 0px;
+        margin-bottom: 80px;
+    }
+    .imagenBiografia7 img{
+        width: 300px;
+    }
+    .fecha1942{
+        margin-bottom: 0px;
+    }
+    .texto1942{
+        padding-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    /* 1943-1944 */
+    .imagenBiografia8{
+        width: 300px;
+    }
+    .imagenBiografia8 img{
+        width: 300px;
+    }
+    .fecha1943-44{
+        margin-bottom: 0px;
+    }
+    .texto1943-44{
+        padding-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    /* 1947-1948 */
+    .fecha1947-48{
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    .texto1947-48{
+        padding-top: 160px;
+    }
+    .imagenBiografia9{
+        width: 300px;
+        margin-top: 0px;
+        margin-bottom: 80px;
+        justify-self: center;
+    }
+    .imagenBiografia9 img{
+        width: 300px;
+    }
+
+    /* 1949-1952 */
+    .fecha1949-52{
+        margin-bottom: 0px;
+    }
+    .texto1949-52{
+        margin-bottom: 80px;
+    }
+
+    /* 1955-1956 */
+    .div1955-1956{
+        margin-bottom: 80px;
+    }
+
+    /* 1958 */
+    .div1958{
+        margin-bottom: 80px;
+    }
+
+    /* 1960 */
+    .div1960{
+        margin-bottom: 80px;
+    }
+
+    /* 1962 */
+    .imagenBiografia10{
+        width: 300px;
+        margin-bottom: 80px;
+    }
+    .imagenBiografia10 img{
+        width: 300px;
+    }
+    .fecha1962{
+        margin-bottom: 0px;
+    }
+    .texto1962{
+        padding-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    /* 1963 */
+    .fecha1963{
+        margin-bottom: 0px;
+    }
+    .texto1963{
+        padding-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    /* 1964 */
+    .imagenBiografia11{
+        width: 300px;
+    }
+    .imagenBiografia11 img{
+        width: 300px;
+    }
+    .fecha1964{
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .texto1964{
+        padding-top: 70px;
+    }
+}
+
+
