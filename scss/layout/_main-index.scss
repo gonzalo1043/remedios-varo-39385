@@ -1,0 +1,132 @@
+// index
+
+.section1Index{
+    margin-bottom: 500px;
+    .textoDentroImagen{
+        background-image:url(../assets/img/remdios-varo-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        color: white;
+        text-align: center;
+        font-family: 'IM Fell French Canon SC', serif;
+        text-transform: uppercase;
+        font-weight: 200;
+        padding: 30px 10px 20px 10px;
+        margin-left: 116px;
+        margin-right: 116px;
+        line-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2{
+            font-size: 112px;
+            margin-bottom: 30px;
+        }
+        h3{
+            font-size: 70px;
+        }
+    }
+    .div2Section1{
+        h4{
+            color: white;
+        font-size: 64px;
+        text-align: center;
+        font-family: 'IM Fell French Canon', serif;
+        font-style: italic;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+        margin-top: 350px;
+        margin-bottom: 68px;
+        padding-left: 50px;
+        padding-right: 50px;
+        }
+        p{
+            color: white;
+            font-size: 28px;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 200;
+            display: flex;
+            justify-content: center;
+            padding-left: 240px;
+            padding-right: 240px;
+            margin-bottom: 28px;
+        }
+    }
+    .divBiografiaCentroIcono{
+        text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'IM Fell French Canon SC', serif ;
+            font-weight: 300;
+            display: flex;
+            justify-content: center;
+        a{border: 1px solid #D6CE8F ;
+            text-decoration: none;
+            list-style: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 30px;
+            color: #D6CE8F;
+        }
+    }
+}
+
+    .section2Index{
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2,auto) / repeat(3,auto);
+        justify-items: center;
+        margin-bottom: 600px;
+
+        .imagen1Index{
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+            }
+    
+        .imagen2Index{
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+            }
+    
+        .botonFecha{
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            justify-self: center;
+            }
+    
+        .botonObras{
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            align-self: center;
+            padding-top: 200px;
+            }
+
+        .letraAmarilla{
+            border: 1px solid #D6CE8F ;
+            text-decoration: none;
+            list-style: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 30px;
+            color: #D6CE8F;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'IM Fell French Canon SC', serif ;
+            font-weight: 300;
+            }
+        
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 65px;
+            font-family: 'IM Fell French Canon', serif;
+            text-decoration: none;
+            font-weight: 200;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            align-self: center;
+            padding-bottom: 100px;
+        }
+    }

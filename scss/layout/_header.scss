@@ -1,0 +1,45 @@
+/* Header */
+header{
+    width: 100%;
+    background-color: #090611;
+    font-family:'IM Fell French Canon SC', serif;
+    font-weight:200;
+    margin-top: 20px;
+    margin-bottom: 114px;
+
+    div{
+        h1{
+            color: #D6CE8F;;
+            text-align: center;
+            font-family: 'IM Fell French Canon SC', serif;
+            font-weight: 200;
+            font-size: 64px;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+    }
+    nav{
+        text-transform: uppercase;
+        margin-top: 20px;
+
+        li a{
+            text-decoration: none;
+            color: #D6CE8F;
+            font-size: 20px;
+        }
+    }
+    .sacarLista{
+        list-style: none;
+        display: flex;
+        justify-content: center
+    }
+    .borde{
+        border: 1px solid #D6CE8F;
+        padding: 5px 10px 5px 10px;
+        border-radius: 30px;
+    }
+}
+
+
+
+

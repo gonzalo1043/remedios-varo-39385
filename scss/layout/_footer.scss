@@ -1,0 +1,55 @@
+footer{
+    background-color:#D6CE8F;
+    height: 100%;
+    .footerContenedor{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "Visitanos Visitanos Visitanos"
+        "redes redes redes"
+        "nav nav nav";
+        height: 100%;
+    }
+    h2{
+        font-size: 60px;
+        text-align: center;
+        color:#090611 ;
+        font-family: 'IM Fell French Canon SC', serif;
+        font-weight: 200;
+        border: 4px #8D8A6C dashed;
+        padding: 0px 70px 5px 70px;
+        border-radius: 30px;
+        grid-area: Visitanos;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: center;
+        align-self: center;
+        background-color: #DDD9B4;
+    }
+    .redes{
+        color: #090611;
+        grid-area: redes;
+        justify-self: center ;
+        margin-bottom: 10px;
+    }
+
+    .navFooter{
+        ul{
+            li{
+                a{
+                    color: #090611;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-family: 'IM Fell French Canon SC', serif ;
+                    list-style: none;
+                    border: 1px solid #090611;
+                    padding: 5px 10px 5px 10px;
+                    border-radius: 30px;
+                    list-style: none;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
