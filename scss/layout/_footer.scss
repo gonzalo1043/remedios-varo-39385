@@ -53,3 +53,26 @@ footer{
         }
     }
 }
+
+// Responsive FOOTER MOBILE-DESKTOP
+
+@media (max-width:500px){
+    footer{
+        .navFooter{
+            ul{
+                li{
+                    a{
+            font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .footerContenedor{
+        h2{
+                font-size: 34px;
+                padding: 0px 30px 0px 30px;
+        }
+    }
+
+}

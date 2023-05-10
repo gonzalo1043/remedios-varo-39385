@@ -1,5 +1,6 @@
 // index
 
+
 .section1Index{
     margin-bottom: 500px;
     .textoDentroImagen{
@@ -11,22 +12,24 @@
         color: white;
         text-align: center;
         font-family: 'IM Fell French Canon SC', serif;
-        text-transform: uppercase;
-        font-weight: 200;
         padding: 30px 10px 20px 10px;
         margin-left: 116px;
         margin-right: 116px;
-        line-height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
         h2{
-            font-size: 112px;
-            margin-bottom: 30px;
+            font-size: 120px;
+            margin-bottom: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+
         }
         h3{
-            font-size: 70px;
+            font-size: 85px;
+            padding-right: 60px;
+            padding-left: 60px;
         }
     }
     .div2Section1{
@@ -59,12 +62,12 @@
     }
     .divBiografiaCentroIcono{
         text-transform: uppercase;
-            font-size: 20px;
-            font-family: 'IM Fell French Canon SC', serif ;
-            font-weight: 300;
-            display: flex;
-            justify-content: center;
-        a{border: 1px solid #D6CE8F ;
+        font-size: 20px;
+        font-family: 'IM Fell French Canon SC', serif ;
+        display: flex;
+        justify-content: center;
+        a{
+            border: 1px solid #D6CE8F ;
             text-decoration: none;
             list-style: none;
             padding: 5px 10px 5px 10px;
@@ -84,11 +87,17 @@
         .imagen1Index{
             grid-column: 1 / 2;
             grid-row: 2 / 3;
+            img{
+                border-radius: 30px;
+            }
             }
     
         .imagen2Index{
             grid-column: 3 / 4;
             grid-row: 2 / 3;
+            img{
+                border-radius: 30px;
+            }
             }
     
         .botonFecha{
@@ -111,10 +120,8 @@
             padding: 5px 10px 5px 10px;
             border-radius: 30px;
             color: #D6CE8F;
-            text-transform: uppercase;
             font-size: 20px;
             font-family: 'IM Fell French Canon SC', serif ;
-            font-weight: 300;
             }
         
         h2{
@@ -130,3 +137,359 @@
             padding-bottom: 100px;
         }
     }
+
+        // Responsive INDEX MOBILE-DESKTOP
+
+        @media (max-width:1250px){
+            .section2Index{
+                h2{
+                    font-size: 50px;
+                }
+            }
+        }
+
+        @media (max-width:1150px){
+            .section1Index{
+                .textoDentroImagen{
+                    h2{
+                        font-size: 105px;
+                    }
+                    h3{
+                        font-size: 75px;
+                        padding-right: 40px;
+                        padding-left: 40px
+                    ;
+                    }
+                }
+            }
+        }
+
+
+        @media (max-width:1024px){
+            .section1Index{
+                margin-bottom: 300px;
+                .textoDentroImagen{
+                    h2{
+                        font-size: 95px;
+                    }
+                    h3{
+                        font-size: 70px;
+                        padding-right: 40px;
+                        padding-left: 40px
+                        ;
+                    }
+                }
+                .div2Section1{
+                    h4{
+                        font-size: 55px;
+                    }
+                    p{
+                        padding-left: 140px;
+                        padding-right: 140px;
+                    }
+                }
+                .divBiografiaCentroIcono{
+                    a{
+                        padding: 5px 10px 5px 10px;
+                    }
+                }
+            }
+            .section2Index{
+                margin-bottom: 400px;
+                .imagen1Index{
+                    img{
+                        width: 350px;
+                        border-radius: 30px;
+                    }
+                }
+                .imagen2Index{
+                    img{
+                        width: 350px;
+                        border-radius: 30px;
+                    }
+                }
+                h2{
+                    font-size: 50px;
+                }
+            }
+
+        }
+
+        @media (max-width:950px){
+            .section1Index{
+                .textoDentroImagen{
+                    h2{
+                        font-size: 78px;
+                    }
+                    h3{
+                        font-size: 55px;
+                        padding-right: 20px;
+                        padding-left: 20px
+                        ;
+                    }
+                }
+                .div2Section1{
+                    h4{
+                        margin-top: 250px;
+                    }
+                    p{
+                        padding-left: 110px;
+                        padding-right: 110px;
+                    }
+                }
+            }
+        
+            .section2Index{
+                margin-bottom: 300px;
+                .imagen1Index{
+                    img{
+                        width: 300px;
+                        border-radius: 30px;
+                    }
+                }
+                .imagen2Index{
+                    img{
+                        width: 300px;
+                        border-radius: 30px;
+                    }
+                }
+                h2{
+                    font-size: 40px;
+                }
+            }
+        }
+
+        @media (max-width:800px){
+            .section1Index{
+                margin-bottom: 200px;
+                .textoDentroImagen{
+                    padding: 0px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    line-height: 100px;
+                    h2{
+                        font-size: 92px;
+                    }
+                    h3{
+                        font-size: 70px;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                }
+            .div2Section1{
+                h4{
+                    font-size: 40px;
+                    margin-top: 200px;
+                    margin-bottom: 50px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                p{
+                    font-size: 18px;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                    margin-bottom: 10px;
+                }
+            }
+            .divBiografiaCentroIcono{
+                font-size: 16px;
+                }
+            }
+
+        .section2Index{
+            grid-template: repeat(3,auto) / 100%;
+            margin-bottom: 200px;
+            .imagen1Index{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                img{
+                    width: 550px;
+                    border-radius: 30px;
+                }
+            }
+            .imagen2Index{
+                display: none;
+            }
+            .botonFecha{
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+            .botonObras{
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+                padding-top: 0px;
+            }
+            .letraAmarilla{
+                font-size: 22px;
+            }
+            h2{
+                font-size: 70px;
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                padding-bottom: 0px;
+            }
+        }
+    }
+
+    @media (max-width:700px){
+        .section1Index{
+            margin-bottom: 150px;
+            .textoDentroImagen{
+                h2{
+                    font-size: 85px;
+                }
+                h3{
+                    font-size: 57px;
+                }
+            }
+        }
+    }
+
+    @media (max-width:600px){
+        .section1Index{
+            margin-bottom: 150px;
+            .textoDentroImagen{
+                h2{
+                    font-size: 80px;
+                }
+                h3{
+                    font-size: 55px;
+                }
+            }
+            .div2Section1{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 18px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+            }
+            .divBiografiaCentroIcono{
+                font-size: 16px;
+            }
+            }
+        .section2Index{
+            .imagen1Index{
+                img{
+                    width: 480px;
+                }
+            }
+            h2{
+                font-size: 50px;
+            }
+            .letraAmarilla{
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width:500px){
+        .section1Index{
+            margin-bottom: 150px;
+            .textoDentroImagen{
+                h2{
+                    font-size: 65px;
+                }
+                h3{
+                    font-size: 48px;
+                }
+            }
+            .div2Section1{
+                h4{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .divBiografiaCentroIcono{
+                font-size: 14px;
+            }
+            }
+        .section2Index{
+            .imagen1Index{
+                img{
+                    width: 400px;
+                }
+            }
+            h2{
+                font-size: 50px;
+            }
+            
+        }
+    }
+    
+
+    @media (max-width:425px){
+        .section1Index{
+            margin-bottom: 150px;
+            .textoDentroImagen{
+                h2{
+                    font-size: 55px;
+                }
+                h3{
+                    font-size: 40px;
+                }
+            }
+            .div2Section1{
+                h4{
+                    font-size: 28px;
+                }
+            }
+        }
+        .section2Index{
+            .imagen1Index{
+                img{
+                    width: 300px;
+                }
+            }
+            h2{
+                font-size: 40px;
+            }
+            .letraAmarilla{
+                font-size: 16px;
+            }
+        }
+
+    }
+
+    @media (max-width:375px){
+        .section1Index{
+            margin-bottom: 150px;
+            .textoDentroImagen{
+                h2{
+                    font-size: 48px;
+                }
+                h3{
+                    font-size: 36px;
+                }
+            }
+            .div2Section1{
+                h4{
+                    margin-top: 100px;
+                    font-size: 24px;
+                }
+            }
+        }
+        .section2Index{
+            .imagen1Index{
+                img{
+                    width: 300px;
+                }
+            }
+            h2{
+                font-size: 36px;
+            }
+            
+        }
+
+    }
+
+
+
+
+

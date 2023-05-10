@@ -78,6 +78,14 @@ header .borde {
   border-radius: 30px;
 }
 
+@media (max-width: 425px) {
+  header div h1 {
+    font-size: 40px;
+  }
+  header nav li a {
+    font-size: 16px;
+  }
+}
 footer {
   background-color: #D6CE8F;
   height: 100%;
@@ -124,6 +132,15 @@ footer .navFooter ul li a {
   text-decoration: none;
 }
 
+@media (max-width: 500px) {
+  footer .navFooter ul li a {
+    font-size: 16px;
+  }
+  .footerContenedor h2 {
+    font-size: 34px;
+    padding: 0px 30px 0px 30px;
+  }
+}
 .section1Index {
   margin-bottom: 500px;
 }
@@ -136,22 +153,23 @@ footer .navFooter ul li a {
   color: white;
   text-align: center;
   font-family: "IM Fell French Canon SC", serif;
-  text-transform: uppercase;
-  font-weight: 200;
   padding: 30px 10px 20px 10px;
   margin-left: 116px;
   margin-right: 116px;
-  line-height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .section1Index .textoDentroImagen h2 {
-  font-size: 112px;
-  margin-bottom: 30px;
+  font-size: 120px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 .section1Index .textoDentroImagen h3 {
-  font-size: 70px;
+  font-size: 85px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 .section1Index .div2Section1 h4 {
   color: white;
@@ -183,7 +201,6 @@ footer .navFooter ul li a {
   text-transform: uppercase;
   font-size: 20px;
   font-family: "IM Fell French Canon SC", serif;
-  font-weight: 300;
   display: flex;
   justify-content: center;
 }
@@ -207,9 +224,15 @@ footer .navFooter ul li a {
   grid-column: 1/2;
   grid-row: 2/3;
 }
+.section2Index .imagen1Index img {
+  border-radius: 30px;
+}
 .section2Index .imagen2Index {
   grid-column: 3/4;
   grid-row: 2/3;
+}
+.section2Index .imagen2Index img {
+  border-radius: 30px;
 }
 .section2Index .botonFecha {
   grid-column: 2/3;
@@ -229,10 +252,8 @@ footer .navFooter ul li a {
   padding: 5px 10px 5px 10px;
   border-radius: 30px;
   color: #D6CE8F;
-  text-transform: uppercase;
   font-size: 20px;
   font-family: "IM Fell French Canon SC", serif;
-  font-weight: 300;
 }
 .section2Index h2 {
   color: white;
@@ -247,6 +268,271 @@ footer .navFooter ul li a {
   padding-bottom: 100px;
 }
 
+@media (max-width: 1250px) {
+  .section2Index h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1150px) {
+  .section1Index .textoDentroImagen h2 {
+    font-size: 105px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 75px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .section1Index {
+    margin-bottom: 300px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 95px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .section1Index .div2Section1 h4 {
+    font-size: 55px;
+  }
+  .section1Index .div2Section1 p {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .section1Index .divBiografiaCentroIcono a {
+    padding: 5px 10px 5px 10px;
+  }
+  .section2Index {
+    margin-bottom: 400px;
+  }
+  .section2Index .imagen1Index img {
+    width: 350px;
+    border-radius: 30px;
+  }
+  .section2Index .imagen2Index img {
+    width: 350px;
+    border-radius: 30px;
+  }
+  .section2Index h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 950px) {
+  .section1Index .textoDentroImagen h2 {
+    font-size: 78px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 55px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .section1Index .div2Section1 h4 {
+    margin-top: 250px;
+  }
+  .section1Index .div2Section1 p {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .section2Index {
+    margin-bottom: 300px;
+  }
+  .section2Index .imagen1Index img {
+    width: 300px;
+    border-radius: 30px;
+  }
+  .section2Index .imagen2Index img {
+    width: 300px;
+    border-radius: 30px;
+  }
+  .section2Index h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .section1Index {
+    margin-bottom: 200px;
+  }
+  .section1Index .textoDentroImagen {
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 100px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 92px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section1Index .div2Section1 h4 {
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .section1Index .div2Section1 p {
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+  }
+  .section1Index .divBiografiaCentroIcono {
+    font-size: 16px;
+  }
+  .section2Index {
+    grid-template: repeat(3, auto)/100%;
+    margin-bottom: 200px;
+  }
+  .section2Index .imagen1Index {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section2Index .imagen1Index img {
+    width: 550px;
+    border-radius: 30px;
+  }
+  .section2Index .imagen2Index {
+    display: none;
+  }
+  .section2Index .botonFecha {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .section2Index .botonObras {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 0px;
+  }
+  .section2Index .letraAmarilla {
+    font-size: 22px;
+  }
+  .section2Index h2 {
+    font-size: 70px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .section1Index {
+    margin-bottom: 150px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 85px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 57px;
+  }
+}
+@media (max-width: 600px) {
+  .section1Index {
+    margin-bottom: 150px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 80px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 55px;
+  }
+  .section1Index .div2Section1 h4 {
+    font-size: 30px;
+  }
+  .section1Index .div2Section1 p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .section1Index .divBiografiaCentroIcono {
+    font-size: 16px;
+  }
+  .section2Index .imagen1Index img {
+    width: 480px;
+  }
+  .section2Index h2 {
+    font-size: 50px;
+  }
+  .section2Index .letraAmarilla {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .section1Index {
+    margin-bottom: 150px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 65px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 48px;
+  }
+  .section1Index .div2Section1 h4 {
+    font-size: 28px;
+  }
+  .section1Index .div2Section1 p {
+    font-size: 16px;
+  }
+  .section1Index .divBiografiaCentroIcono {
+    font-size: 14px;
+  }
+  .section2Index .imagen1Index img {
+    width: 400px;
+  }
+  .section2Index h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 425px) {
+  .section1Index {
+    margin-bottom: 150px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 55px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 40px;
+  }
+  .section1Index .div2Section1 h4 {
+    font-size: 28px;
+  }
+  .section2Index .imagen1Index img {
+    width: 300px;
+  }
+  .section2Index h2 {
+    font-size: 40px;
+  }
+  .section2Index .letraAmarilla {
+    font-size: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .section1Index {
+    margin-bottom: 150px;
+  }
+  .section1Index .textoDentroImagen h2 {
+    font-size: 48px;
+  }
+  .section1Index .textoDentroImagen h3 {
+    font-size: 36px;
+  }
+  .section1Index .div2Section1 h4 {
+    margin-top: 100px;
+    font-size: 24px;
+  }
+  .section2Index .imagen1Index img {
+    width: 300px;
+  }
+  .section2Index h2 {
+    font-size: 36px;
+  }
+}
 body {
   width: 100%;
   background-color: #090611;

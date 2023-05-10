@@ -40,6 +40,21 @@ header{
     }
 }
 
+@media (max-width:425px){
+    header{
+        div{
+            h1{
+                font-size: 40px;
+            }
+        }
+        nav{
+            li a{
+            font-size: 16px;
+            }
+            }
+    }
+}
+
 
 
 
