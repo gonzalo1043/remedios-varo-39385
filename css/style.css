@@ -2266,6 +2266,14 @@ img {
   margin-bottom: 346px;
 }
 
+.carousel-control-prev {
+  padding-bottom: 100px;
+}
+
+.carousel-control-next {
+  padding-bottom: 100px;
+}
+
 .obrasCarousel {
   display: grid;
   grid-template-columns: auto 500px auto;
@@ -2278,15 +2286,19 @@ img {
   height: auto;
 }
 .obrasCarousel .carousel-inner h5 {
-  color: #18151F;
+  color: #D6CE8F;
   font-weight: 500px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 34px;
   text-transform: uppercase;
+  padding-top: 10px;
+  text-align: center;
 }
 .obrasCarousel .carousel-inner p {
-  color: black;
+  text-align: center;
+  color: white;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 .obrasCarousel .carousel-control-prev {
   grid-column: 2/3;
@@ -2307,15 +2319,19 @@ img {
   height: auto;
 }
 .obrasCarousel-3 .carousel-inner h5 {
-  color: #18151F;
+  color: #D6CE8F;
   font-weight: 500px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 34px;
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
 }
 .obrasCarousel-3 .carousel-inner p {
-  color: black;
+  text-align: center;
+  color: white;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 .obrasCarousel-3 .carousel-control-prev {
   grid-column: 2/3;
@@ -2355,8 +2371,20 @@ img {
   .obrasCarousel {
     grid-template-columns: auto 400px auto;
   }
+  .obrasCarousel .carousel-inner h5 {
+    font-size: 28px;
+  }
+  .obrasCarousel .carousel-inner p {
+    font-size: 16px;
+  }
   .obrasCarousel-3 {
     grid-template-columns: auto 500px auto;
+  }
+  .obrasCarousel-3 .carousel-inner h5 {
+    font-size: 28px;
+  }
+  .obrasCarousel-3 .carousel-inner p {
+    font-size: 16px;
   }
 }
 @media (max-width: 620px) {
@@ -2376,8 +2404,20 @@ img {
   .obrasCarousel {
     grid-template-columns: auto 350px auto;
   }
+  .obrasCarousel .carousel-inner h5 {
+    font-size: 24px;
+  }
+  .obrasCarousel .carousel-inner p {
+    font-size: 15px;
+  }
   .obrasCarousel-3 {
     grid-template-columns: auto 450px auto;
+  }
+  .obrasCarousel-3 .carousel-inner h5 {
+    font-size: 24px;
+  }
+  .obrasCarousel-3 .carousel-inner p {
+    font-size: 15px;
   }
 }
 @media (max-width: 490px) {
@@ -2393,27 +2433,21 @@ img {
     margin-top: 50px;
   }
   .titulo p {
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 40px;
     line-height: 50px;
   }
   .imagenObras3040 img {
     width: 350px;
   }
-  .obrasCarousel-3 {
-    grid-template-columns: auto 350px auto;
-  }
-}
-@media (max-width: 430px) {
-  .titulo p {
-    font-size: 60px;
-    margin-bottom: 30px;
-  }
-  .imagenObras3040 img {
-    width: 350px;
+  .obrasCarousel .carousel-inner h5 {
+    font-size: 22px;
   }
   .obrasCarousel-3 {
     grid-template-columns: auto 350px auto;
+  }
+  .obrasCarousel-3 .carousel-inner h5 {
+    font-size: 22px;
   }
 }
 @media (max-width: 375px) {
