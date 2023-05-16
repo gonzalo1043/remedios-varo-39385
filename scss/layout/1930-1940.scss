@@ -8,7 +8,6 @@
         grid-row: 1 / 2;
         margin-top: 500px;
         justify-self: center;
-
     }
     .titulo{
         grid-column: 1 / 2;
@@ -21,8 +20,8 @@
     margin-top: 700px;
 }
 .slide-bottom {
-	-webkit-animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-	        animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+	-webkit-animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+	        animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
 }
 
 .carousel-control-prev{
