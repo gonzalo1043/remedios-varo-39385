@@ -350,6 +350,8 @@ footer .navFooter ul li a {
 }
 .section2Index .imagen1Index img {
   border-radius: 30px;
+  width: 420px;
+  height: 590px;
 }
 .section2Index .imagen2Index {
   grid-column: 3/4;
@@ -357,6 +359,8 @@ footer .navFooter ul li a {
 }
 .section2Index .imagen2Index img {
   border-radius: 30px;
+  width: 420px;
+  height: 590px;
 }
 .section2Index .botonFecha {
   grid-column: 2/3;
@@ -406,6 +410,14 @@ footer .navFooter ul li a {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .section2Index .imagen1Index img {
+    width: 400px;
+    height: 562px;
+  }
+  .section2Index .imagen2Index img {
+    width: 400px;
+    height: 562px;
+  }
 }
 @media (max-width: 1024px) {
   .section1Index {
@@ -434,11 +446,11 @@ footer .navFooter ul li a {
   }
   .section2Index .imagen1Index img {
     width: 350px;
-    border-radius: 30px;
+    height: 491px;
   }
   .section2Index .imagen2Index img {
     width: 350px;
-    border-radius: 30px;
+    height: 491px;
   }
   .section2Index h2 {
     font-size: 50px;
@@ -465,10 +477,12 @@ footer .navFooter ul li a {
   }
   .section2Index .imagen1Index img {
     width: 300px;
+    height: 421px;
     border-radius: 30px;
   }
   .section2Index .imagen2Index img {
     width: 300px;
+    height: 421px;
     border-radius: 30px;
   }
   .section2Index h2 {
@@ -521,6 +535,7 @@ footer .navFooter ul li a {
   }
   .section2Index .imagen1Index img {
     width: 550px;
+    height: auto;
     border-radius: 30px;
   }
   .section2Index .imagen2Index {

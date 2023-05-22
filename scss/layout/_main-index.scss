@@ -83,14 +83,13 @@
         grid-template: repeat(2,auto) / repeat(3,auto);
         justify-items: center;
         margin-bottom: 600px;
-
-        
-
         .imagen1Index{
             grid-column: 1 / 2;
             grid-row: 2 / 3;
             img{
                 border-radius: 30px;
+                width: 420px;
+                height: 590px;
             }
             }
     
@@ -99,6 +98,8 @@
             grid-row: 2 / 3;
             img{
                 border-radius: 30px;
+                width: 420px;
+                height: 590px;
             }
             }
     
@@ -164,6 +165,20 @@
                     }
                 }
             }
+            .section2Index{
+                .imagen1Index{
+                    img{
+                        width: 400px;
+                        height: 562px;
+                    }
+                }
+                .imagen2Index{
+                    img{
+                        width: 400px;
+                        height: 562px;
+                    }
+                }
+            }
         }
 
 
@@ -201,13 +216,13 @@
                 .imagen1Index{
                     img{
                         width: 350px;
-                        border-radius: 30px;
+                        height: 491px;
                     }
                 }
                 .imagen2Index{
                     img{
                         width: 350px;
-                        border-radius: 30px;
+                        height: 491px;
                     }
                 }
                 h2{
@@ -246,12 +261,14 @@
                 .imagen1Index{
                     img{
                         width: 300px;
+                        height: 421px;
                         border-radius: 30px;
                     }
                 }
                 .imagen2Index{
                     img{
                         width: 300px;
+                        height: 421px;
                         border-radius: 30px;
                     }
                 }
@@ -308,6 +325,7 @@
                 margin-bottom: 20px;
                 img{
                     width: 550px;
+                    height: auto;
                     border-radius: 30px;
                 }
             }
