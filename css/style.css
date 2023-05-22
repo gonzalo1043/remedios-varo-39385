@@ -77,6 +77,10 @@ header .borde {
   border-radius: 30px;
 }
 
+.navbar-nav {
+  padding-left: 12px;
+}
+
 .navbar-toggler {
   --bs-navbar-color: #D6CE8F;
 }
