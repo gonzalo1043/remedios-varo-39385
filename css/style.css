@@ -16,6 +16,7 @@ font-family: 'Josefin Sans', sans-serif; */
   background-color: #18151F;
   border: #D6CE8F solid 1px;
   justify-content: center;
+  --bs-dropdown-link-active-bg: ;
 }
 
 .dropdown-item {
