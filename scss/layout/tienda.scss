@@ -1,0 +1,68 @@
+
+.centrar-cards{
+    display: grid;
+    grid-template: auto / auto 95% auto;
+    .row{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    }
+    .col{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+    }
+}
+.card{
+    --bs-card-bg:#D6CE8F;
+    border-radius: 30px;
+    .card-body{
+        background-color: #18151F;
+        border-radius: 30px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        .card-title{
+            color: #D6CE8F;
+            font-size: 26px;
+            font-family:'Josefin Sans', sans-serif;
+            text-align: center;
+        }
+        .card-text{
+            color: white;
+            font-family:'Josefin Sans', sans-serif;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+        .precio{
+            font-size: 30px;
+            color: #D6CE8F;
+            margin-top: 25px;
+            text-align: center;
+        }
+        a{
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.btn-primary {
+    --bs-btn-color: #18151F;
+    --bs-btn-bg: #e0d36d;
+    --bs-btn-border-color: #e0d36d;
+    --bs-btn-hover-bg: #18151F;
+    --bs-btn-active-bg: #090611;
+    --bs-btn-hover-border-color: #e1d367;
+    --bs-btn-active-border-color:#e1d367;
+}
+
+.btn{
+    --bs-btn-border-radius:30px;
+    vertical-align: bottom;
+    align-items: last baseline;
+}
+
+.titulo-tienda{
+    margin-bottom: 80px;
+}
+

@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1{
-        font-size: 130px;
+    h2{
+        font-size: 100px;
         color: #D6CE8F;
         text-align: center;
         font-family: 'IM Fell French Canon', serif;
@@ -14,7 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 235px;
+        margin-top: 221px;
     }
     img{
         margin-bottom: 127px;
@@ -915,8 +915,8 @@ img{
 /* 650px *//* 650px *//* 650px *//* 650px *//* 650px *//* 650px */
 @media(max-width:650px){
     .tituloBiografia{
-        h1{
-            font-size: 100px;
+        h2{
+            font-size: 80px;
         }
         img{
             width: 590px;
@@ -1084,8 +1084,8 @@ img{
 /* 500px *//* 500px *//* 500px *//* 500px *//* 500px *//* 500px */
 @media(max-width:500px){
     .tituloBiografia{
-        h1{
-            font-size: 80px;
+        h2{
+            font-size: 70px;
         }
         img{
             width: 420px;
@@ -1141,8 +1141,8 @@ img{
 /* 425px *//* 425px *//* 425px *//* 425px *//* 425px *//* 425px */
 @media(max-width:425px){
     .tituloBiografia{
-        h1{
-            font-size: 70px;
+        h2{
+            font-size: 60px;
             margin-top: 70px;
         }
         img{
@@ -1219,8 +1219,8 @@ img{
 /* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px *//* 375px */
 @media(max-width:375px){
     .tituloBiografia{
-        h1{
-            font-size: 65px;
+        h2{
+            font-size: 55px;
         }
         img{
             width: 320px;
@@ -1364,8 +1364,8 @@ img{
 /* 320px */    /* 320px *//* 320px */    /* 320px *//* 320px */    /* 320px */
 @media (max-width:320px){
     .tituloBiografia{
-        h1{
-            font-size: 60px;
+        h2{
+            font-size: 50px;
         }
         img{
             width: 300px;

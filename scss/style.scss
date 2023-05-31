@@ -1,3 +1,5 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./base/reset.scss";
 @import "./base/typo.scss";
 @import "./components/bootstrap.scss";
@@ -10,6 +12,8 @@
 @import "./layout/1940-1950.scss";
 @import "./layout/1950-1960.scss";
 @import "./layout/1960-1963.scss";
+@import "./layout/tienda.scss";
+
 
 
 
@@ -18,9 +22,9 @@
 
 body{
     width: 100%;
-    background-color: #090611;
+    background-color: $bg-color-principal;
 }
 
 main{
-    background-color: #090611;
+    background-color: $bg-color-principal;
 }

@@ -1,5 +1,6 @@
+$bg-color-secundario: #D6CE8F;
 footer{
-    background-color:#D6CE8F;
+    background-color: $bg-color-secundario;
     height: 100%;
     .footerContenedor{
         display: grid;

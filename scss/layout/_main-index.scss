@@ -3,6 +3,7 @@
 
 .section1Index{
     margin-bottom: 500px;
+    margin-top: 120px;
     .textoDentroImagen{
         background-image:url(../assets/img/remdios-varo-1.jpg);
         background-repeat: no-repeat;
@@ -40,8 +41,7 @@
         font-family: 'IM Fell French Canon', serif;
         font-style: italic;
         font-weight: 200;
-        display: flex;
-        justify-content: center;
+        @include flexIndex;
         margin-top: 350px;
         margin-bottom: 68px;
         padding-left: 50px;
@@ -53,8 +53,7 @@
             text-align: center;
             font-family: 'Josefin Sans', sans-serif;
             font-weight: 200;
-            display: flex;
-            justify-content: center;
+            @include flexIndex;
             padding-left: 240px;
             padding-right: 240px;
             margin-bottom: 28px;
@@ -64,8 +63,7 @@
         text-transform: uppercase;
         font-size: 20px;
         font-family: 'IM Fell French Canon SC', serif ;
-        display: flex;
-        justify-content: center;
+        @include flexIndex;;
         a{
             border: 1px solid #D6CE8F ;
             text-decoration: none;
